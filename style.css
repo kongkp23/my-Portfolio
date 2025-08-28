@@ -1,0 +1,139 @@
+.topic {
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-weight: 100;
+    margin-top: 50px;
+    font-family: fantasy;
+    text-shadow: 7px 5px 2px rgb(91, 19, 224);
+    text-decoration: overline;
+    border-radius: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-image {
+    width: 550px;
+    height: 720px;
+    display: block;
+    border: 2px solid rgb(139, 8, 8);
+    border-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    float: right;
+    /*อยากให้รูป Profile ไปอยู่ฝั่งขวาแต่ผมทำไม่เป็นเลยไปดู Youtube และใช้คำสั่งนี้อาจจะนอกเหนือที่อาจารย์สอนขออนุญาตค้าบบ*/
+    margin-right: 150px;
+}
+
+.icon {
+    width: 30px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.About {
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+/*กำหนดลิ้งให้ดูมีลูกเล่นสวยๆ*/
+a {
+    text-decoration: none;
+    color: rgb(91, 19, 224);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0000;
+}
+
+.contact {
+    width: 50%;
+    font-size: 20px;
+    color: rgb(91, 19, 224);
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    border: 3px solid rgb(91, 19, 224);
+
+}
+
+.content {
+    background-image: url("Image/bg3.jpg");
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+
+.projects {
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    margin-left: 100px;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+.details {
+    font-weight: 200;
+}
+
+
+ul {
+    list-style: none;
+    /* เอาจุดหน้ารายการออก */
+    padding: 0;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 370px;
+    margin-right: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid rgb(91, 19, 224);
+
+}
+
+ul li {
+    width: 20px;
+    margin-left: 150px;
+    padding: 2px 7px;
+    margin-bottom: 5px;
+    border-left: 5px solid #8a2be2;
+    background-color: rgba(70, 6, 143, 0.05);
+    color: black;
+    font-weight: 900;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+}
